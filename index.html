@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DRUMS WEBAPP</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid col-12">
+		<div class="keys">
+			<div data-key="65" class="key">
+				<kbd>A</kbd>
+				<span class="sound">Snare</span>
+			</div>
+
+			<div data-key="83" class="key">
+				<kbd>S</kbd>
+				<span class="sound">Tom 1</span>
+			</div>
+
+			<div data-key="68" class="key">
+				<kbd>D</kbd>
+				<span class="sound">Tom 2</span>
+			</div>
+
+			<div data-key="70" class="key">
+				<kbd>F</kbd>
+				<span class="sound">F. Tom</span>
+			</div>
+
+			<div data-key="32" class="key">
+				<kbd>Space</kbd>
+				<span class="sound">kick</span>
+			</div> 
+
+			<div data-key="74" class="key">
+				<kbd>J</kbd>
+				<span class="sound">Closed</span>
+			</div>
+
+			<div data-key="75" class="key">
+				<kbd>K</kbd>
+				<span class="sound">Open</span>
+			</div>
+
+			<div data-key="76" class="key">
+				<kbd>L</kbd>
+				<span class="sound">Crash</span>
+			</div>
+
+			<div data-key="186" class="key">
+				<kbd>;</kbd>
+				<span class="sound">Ride</span>
+			</div>
+		</div>
+	</div>
+
+	<audio data-key="65" src="assets/samples/snare.wav"></audio>
+	<audio data-key="83" src="assets/samples/tom1.wav"></audio>
+	<audio data-key="68" src="assets/samples/tom2.wav"></audio>
+	<audio data-key="70" src="assets/samples/ftom.wav"></audio>
+	<audio data-key="32" src="assets/samples/kick.wav"></audio>
+	<audio data-key="74" src="assets/samples/closed.wav"></audio>
+	<audio data-key="75" src="assets/samples/open.wav"></audio>
+	<audio data-key="76" src="assets/samples/crash.wav"></audio>
+	<audio data-key="186" src="assets/samples/ride.wav"></audio>
+
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>

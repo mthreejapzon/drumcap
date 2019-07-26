@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Darker Grotesque', sans-serif;
+}
+
+
+body {
+	background-image: url(/home/tuittday/Documents/Macky-Japzon/wd005/gamecapstone/assets/images/606876.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.key {
+	border: 1px solid black;
+	border-radius: 5px;
+	margin:1rem;
+	margin-top: 220px;
+	font-size: 20px;
+	padding:1rem .5rem;
+	transition: all 0.7s;
+	width: 112px;
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.4); 
+	text-shadow: 0 0 10px white;
+	display: inline-block;
+}
+
+.playing {
+	transition:scale(1.1);
+	border-color: yellow;
+	box-shadow: 0 0 gray;
+}
+
+
+kbd {
+	display: block;
+	font-family: 40px;
+}
+
+
+
+.sound {
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #ffc600;
+};
